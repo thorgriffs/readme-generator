@@ -2,6 +2,17 @@
 function generateMarkdown(data) {
   var lines = [];
   lines.push('# ' + data.Title);
+  var badge = '';
+  if(data.License === 'MIT') {
+    badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+  }
+  else if(data.License === 'Apache 2.0') {
+    badge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+  }
+  else if(data.License === 'GNU GPL v3') {
+    badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+  }
+  lines.push(badge);
   lines.push('## Description');
   lines.push(data.Description);
   lines.push('## Table of Contents');
