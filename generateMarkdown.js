@@ -17,11 +17,11 @@ function generateMarkdown(data) {
   lines.push(data.Description);
   lines.push('## Table of Contents');
   lines.push('* [Installation](#Installation)');
-  lines.push('* [Usage](#Usage)');
-  lines.push('* [License](#License)');
+  lines.push('* [Usage](#Usage)');  
   lines.push('* [Contributing](#Contributing)');
   lines.push('* [Tests](#Tests)');
   lines.push('* [Questions](#Questions)');
+  lines.push('* [License](#License)');
   lines.push('## Installation');
   lines.push(data.Installation);
   lines.push('## Usage');
@@ -46,17 +46,18 @@ function generateMarkdown(data) {
   lines.push(license);
 
 
-  return lines.join('\r\n');
+  return lines.join('\n');
 }
 
 module.exports = generateMarkdown;
 
 function createMitLicense (name) {
-  return `>MIT License
-
+  return `
+  >MIT License
+  >
   >Copyright (c) 2020 `+name+`
   >
- > Permission is hereby granted, free of charge, to any person obtaining a copy
+  >Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
   in the Software without restriction, including without limitation the rights
   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -76,15 +77,16 @@ function createMitLicense (name) {
 };
 
 function createApacheLicense (name) {
-  return `Copyright 2020 `+name+`
-
-  Licensed under the Apache License, Version 2.0 (the "License");
+  return `
+  >Copyright 2020 `+name+`
+  >
+  >Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
-  
-      http://www.apache.org/licenses/LICENSE-2.0
-  
-  Unless required by applicable law or agreed to in writing, software
+  >
+  >>http://www.apache.org/licenses/LICENSE-2.0
+  >
+  >Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
@@ -92,14 +94,15 @@ function createApacheLicense (name) {
 };
 
 function createGnuLicense (name) {
-  return `Copyright (C) 2020  `+name+`
-
-  This program is free software: you can redistribute it and/or modify
+  return `
+  >Copyright (C) 2020  `+name+`
+  >
+  >This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
   (at your option) any later version.
-  
-  This program is distributed in the hope that it will be useful,
+  >
+  >This program is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   GNU General Public License for more details.`
