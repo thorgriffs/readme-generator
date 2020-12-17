@@ -3,8 +3,16 @@ function generateMarkdown(data) {
   var lines = [];
   lines.push('# ' + data.Title);
   lines.push('## Description');
+  lines.push('***');
   lines.push(data.Description);
   lines.push('## Table of Contents');
+  lines.push('***');
+  lines.push('* [Installation](#Installation)');
+  lines.push('* [Usage](#Usage)');
+  lines.push('* [License](#License)');
+  lines.push('* [Contributing](#Contributing)');
+  lines.push('* [Tests](#Tests)');
+  lines.push('* [Questions](#Questions)');
   lines.push('## Installation');
   lines.push(data.Installation);
   lines.push('## Usage');

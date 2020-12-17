@@ -1,16 +1,24 @@
-# readme generator
+# readme generatore
 ## Description
-it's a project
+***
+project project
 ## Table of Contents
+***
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 ## Installation
 install it
 ## Usage
 use it
 ## License
 ## Contributing
-contribute please
+contribute
 ## Tests
-run the tests
+run it
 ## Questions
 [thorgriffs](https://github.com/thorgriffs)
 Contact me with questions at <22.kelliking@gmail.com>
