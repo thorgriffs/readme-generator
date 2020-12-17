@@ -1,9 +1,7 @@
-# readme generatore
+# README Generator
 ## Description
-***
-project project
+This is my homework assignment
 ## Table of Contents
-***
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
@@ -11,14 +9,14 @@ project project
 * [Tests](#Tests)
 * [Questions](#Questions)
 ## Installation
-install it
+Install it
 ## Usage
-use it
+Please use it
 ## License
 ## Contributing
-contribute
+Please contribute
 ## Tests
-run it
+Run the tests
 ## Questions
 [thorgriffs](https://github.com/thorgriffs)
 Contact me with questions at <22.kelliking@gmail.com>

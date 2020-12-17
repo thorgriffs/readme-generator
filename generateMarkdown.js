@@ -3,10 +3,8 @@ function generateMarkdown(data) {
   var lines = [];
   lines.push('# ' + data.Title);
   lines.push('## Description');
-  lines.push('***');
   lines.push(data.Description);
   lines.push('## Table of Contents');
-  lines.push('***');
   lines.push('* [Installation](#Installation)');
   lines.push('* [Usage](#Usage)');
   lines.push('* [License](#License)');
@@ -27,7 +25,7 @@ function generateMarkdown(data) {
   lines.push('Contact me with questions at <' + data.email + '>');
 
 
-  return lines.join('\n');
+  return lines.join('\r\n');
 }
 
 module.exports = generateMarkdown;
