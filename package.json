@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/thorgriffs/readme-generator#readme",
   "dependencies": {
+    "email-validator": "^2.0.4",
     "inquirer": "^7.3.3"
   }
 }

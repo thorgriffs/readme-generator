@@ -25,7 +25,13 @@ function generateMarkdown(data) {
   lines.push('## Installation');
   lines.push(data.Installation);
   lines.push('## Usage');
-  lines.push(data.Usage);
+  lines.push(data.Usage);  
+  lines.push('## Contributing');
+  lines.push(data.Contributing);
+  lines.push('## Tests');
+  lines.push(data.Tests);
+  lines.push('## Questions');
+  lines.push('Have questions?  Contact me on [GitHub](https://github.com/' + data.username + ') or email <' + data.email + '>');
   lines.push('## License');
   var license = '';
   if(data.License === 'MIT') {
@@ -38,13 +44,6 @@ function generateMarkdown(data) {
     license = createGnuLicense(data.Name);
   }
   lines.push(license);
-  lines.push('## Contributing');
-  lines.push(data.Contributing);
-  lines.push('## Tests');
-  lines.push(data.Tests);
-  lines.push('## Questions');
-  lines.push('[' + data.username + '](https://github.com/' + data.username + ')  ');
-  lines.push('Contact me with questions at <' + data.email + '>');
 
 
   return lines.join('\r\n');
