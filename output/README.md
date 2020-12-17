@@ -1,6 +1,6 @@
 # README Generator
 ## Description
-This is my homework assignment
+This is a homework assignment
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -11,12 +11,12 @@ This is my homework assignment
 ## Installation
 Install it
 ## Usage
-Please use it
+Use it
 ## License
 ## Contributing
 Please contribute
 ## Tests
-Run the tests
+Run the tests and then run them again and then run them again
 ## Questions
-[thorgriffs](https://github.com/thorgriffs)
+[thorgriffs](https://github.com/thorgriffs)  
 Contact me with questions at <22.kelliking@gmail.com>

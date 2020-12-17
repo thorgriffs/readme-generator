@@ -21,7 +21,7 @@ function generateMarkdown(data) {
   lines.push('## Tests');
   lines.push(data.Tests);
   lines.push('## Questions');
-  lines.push('[' + data.username + '](https://github.com/' + data.username + ')');
+  lines.push('[' + data.username + '](https://github.com/' + data.username + ')  ');
   lines.push('Contact me with questions at <' + data.email + '>');
 
 
