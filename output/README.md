@@ -1,7 +1,7 @@
 # README Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-This is a homework assignment to generate a README.md file using command line prompts
+This is a Coding Bootcamp homework assignment to create a README.md file generator using command line interface prompts
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -10,17 +10,17 @@ This is a homework assignment to generate a README.md file using command line pr
 * [Tests](#Tests)
 * [Questions](#Questions)
 ## Installation
-install npm (npm install), install npm inquirer, install npm email-validator
+npm install, install npm inquirer, install npm email-validator
 ## Usage
 node index.js
 ## Contributing
-submit a pull request
+Submit a pull request
 ## Tests
-Run the tests
+Run tests
 ## Questions
 Have questions?  Contact me on [GitHub](https://github.com/thorgriffs) or email <22.kelliking@gmail.com>
 ## License
-MIT License
+>MIT License
 
   Copyright (c) 2020 Kelli King
   

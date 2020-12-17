@@ -43,7 +43,7 @@ function generateMarkdown(data) {
   else if(data.License === 'GNU GPL v3') {
     license = createGnuLicense(data.Name);
   }
-  lines.push(license);
+  lines.push('>' + license);
 
 
   return lines.join('\r\n');
