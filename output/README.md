@@ -1,7 +1,7 @@
 # README Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-It's my project
+This is a homework assignment to generate a README.md file using command line prompts
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -10,9 +10,15 @@ It's my project
 * [Tests](#Tests)
 * [Questions](#Questions)
 ## Installation
-Install it
+install npm (npm install), install npm inquirer, install npm email-validator
 ## Usage
-Use this project please
+node index.js
+## Contributing
+submit a pull request
+## Tests
+Run the tests
+## Questions
+Have questions?  Contact me on [GitHub](https://github.com/thorgriffs) or email <22.kelliking@gmail.com>
 ## License
 MIT License
 
@@ -35,10 +41,3 @@ MIT License
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.
-## Contributing
-Contribute to it
-## Tests
-Run tests
-## Questions
-[thorgriffs](https://github.com/thorgriffs)  
-Contact me with questions at <22.kelliking@gmail.com>
