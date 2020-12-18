@@ -36,11 +36,12 @@ npm install
 npm install inquirer
 npm install email-validator
 ```
+## Usage
 Execute the README file generator with 
 ```bash
 node index.js
 ```
-## 
+
 ## Contributing
 Fork the repo and submit a pull request to enhance the code or fix a bug
 ## Questions
